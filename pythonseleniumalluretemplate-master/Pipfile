@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+pytest = "*"
+allure-pytest = "*"
+null = "*"
+webdriver-manager = "*"
+pyodbc = {path = "./pyodbc-4.0.32-cp310-cp310-win_amd64.whl"}
+pytest-html = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

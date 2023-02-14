@@ -1,0 +1,46 @@
+{
+        "environment": "QA",
+        "QA":
+        {
+                "__valoresValidos": "Firefox, Chrome, IE, Edge",
+                "browser": "Chrome",
+                "__valoresValidos": "local, remote",
+                "execution": "local",
+                "headless": false,
+                "use_web_driver_manager": true,
+                "selenium_hub": "http://xxx/wd/hub",
+                "default_time_out_in_seconds": "30",
+
+                "db_url": "localhost",
+                "db_port": "xxx",
+                "db_name": "teste",
+                "db_user": "sa",
+                "db_password": "P@ssw0rd",
+
+                "default_application_url": "http://mantis-prova.base2.com.br",
+
+                "take_screenshot_each_step": false,
+                "take_screenshot_test_just_in_error": true
+        },
+        "HML":
+        {       "__valoresValidos": "Firefox, Chrome, IE, Edge",
+                "browser": "IE",
+                "__valoresValidos": "local, remota",
+                "execution": "local",
+                "headless": false,
+                "use_web_driver_manager": true,
+                "selenium_hub": "http://xxx/wd/hub",
+                "default_time_out_in_seconds": "30",
+
+                "db_url": "localhost",
+                "db_port": "xxx",
+                "db_name": "teste",
+                "db_user": "sa",
+                "db_password": "P@ssw0rd",
+
+                "default_application_url": "http://mantis-prova.base2.com.br",
+
+                "take_screenshot_each_step": true,
+                "take_screenshot_test_just_in_error": true
+        }
+}
